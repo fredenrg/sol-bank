@@ -1,0 +1,167 @@
+.navBar {
+  width: 100%;
+  z-index: 10;
+}
+.navBar .brand-logo {
+  width: 60px;
+}
+.navBar .brand-name {
+  color: #fff;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.navBar .navBar-main {
+  background-color: rgba(0, 0, 0, 0.279);
+  color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.navBar .dotted {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.navBar .dotted:hover {
+  display: block;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  letter-spacing: 1px;
+  font-size: 14px;
+  display: block;
+  padding: 10px 0 5px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 14px 20px 12px;
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fcdb34;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fcdb34;
+}
+/* .navbar-toggler-icon {
+  background-color: #121212;
+} */
+.navBar .container-fluid {
+  padding: 5px 10%;
+}
+.navBar .container-fluid.top {
+  transition: padding 0.5s ease;
+  padding: 5px 10%;
+}
+.navBar .container-fluid.scroll {
+  padding: 0px 10px;
+  transition: padding 0.5s ease;
+}
+.navBar .navBar-main.top {
+  background-color: rgba(0, 0, 0, 0.279);
+  height: 90px;
+}
+.navBar .navBar-main.scroll {
+  background-color: #252525;
+  height: 75px;
+}
+.navBar .toggler {
+  display: none;
+}
+
+@media only screen and (max-width: 990px) {
+  .navBar {
+    background-color: #121212;
+    position: relative;
+    width: 100%;
+  }
+  .navBar .navBar-main {
+    /* background-color: rgb(226, 177, 43); */
+    width: 100%;
+  }
+  .navBar .container-fluid {
+    /* background-color: rgb(153, 153, 179); */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .navBar .navBrand-mobile {
+    display: "flex";
+    clear: "both";
+    width: "100%";
+    align-items: "center";
+    justify-content: "center";
+    /* background-color: aqua; */
+  }
+  .navBar .brand-logo {
+    width: 60px;
+  }
+  .navBar .navLinksWrapper-mobile {
+    border: 1px solid #fff;
+    width: 65%;
+  }
+  .navBar .toggler {
+    display: block;
+  }
+  .navBar .nav-wrapper {
+    padding: 0 !important;
+  }
+  /* .navBar .navbarCollapse {
+    border: 1px solid #fff;
+    width: fit-content;
+  } */
+  .navbar-light .navbar-nav .nav-link {
+    /* text-align: center; */
+    border-top: 1px solid #fff;
+    margin: 2px 0px;
+    padding-left: 8%;
+    font-size: 14.1px;
+  }
+  .navBar .container-fluid.top {
+    transition: padding 0.5s ease;
+    padding: 0px 10px;
+  }
+  .navBar .navBar-main {
+    background-color: #252525;
+    padding-bottom: 15px;
+  }
+  .navBar .navBar-main.scroll {
+    height: fit-content;
+    background-color: #252525;
+  }
+  .navBar .navBar-main.top {
+    height: fit-content;
+    background-color: #252525;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='25' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255,255,255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='3' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+  .navbar-toggler {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    transition: box-shadow 0.15s ease-in-out;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .fas.fa-bars {
+    font-size: 12px;
+    /* color: red; */
+    font-weight: bold;
+  }
+}

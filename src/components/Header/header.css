@@ -1,0 +1,101 @@
+/******************************************************* Header Styles *****************************************/
+.main-header {
+  height: 100vh;
+  /* background: url("../../videos/header-bg.mp4"); */
+}
+.main-header .video-wrapper {
+  /* position: absolute; */
+}
+.main-header .video-overlay {
+  background-color: #21202246;
+  width: 100%;
+  height: 100vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.video-overlay .content {
+  /* width: 50%; */
+  position: absolute;
+  background: #2120227c;
+  z-index: 1;
+  bottom: 10%;
+  left: 50px;
+  max-width: 650px;
+  padding: 40px;
+}
+.video-overlay .content h1 {
+  color: #fcdb34;
+  line-height: 45px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.video-overlay .content h2 {
+  font-size: 42px;
+  font-style: italic;
+  margin-bottom: 15px;
+  color: #fff;
+  font-weight: 300;
+  font-family: "Xanh Mono", monospace;
+}
+.video-overlay .content p {
+  color: #fff;
+  -webkit-font-smoothing: auto;
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 300;
+}
+.main-header .bg-video {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+  /* height: 100vh; */
+}
+.video-overlay .content .header-btn {
+  background-color: #fcdb34;
+  border: 2px solid #fcdb34;
+  color: #000;
+  width: 60%;
+  margin-top: 5px;
+  padding: 9px 18px;
+  max-width: 335px;
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+.video-overlay .content .header-btn:hover {
+  background-color: transparent;
+  color: #fcdb34;
+}
+
+@media only screen and (max-width: 990px) {
+  .video-overlay .content {
+    /* height: 400px; */
+    background: #212022;
+    padding: 10px 10px 25px;
+    left: 0;
+    bottom: 10%;
+    margin: 10px;
+    /* z-index: -1; */
+  }
+  .video-overlay .content h1 {
+    font-size: 20px;
+  }
+  .video-overlay .content h2 {
+    font-size: 21px;
+  }
+  .video-overlay .content p {
+    font-size: 14px;
+  }
+}
