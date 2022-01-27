@@ -11,13 +11,12 @@ const Header = () => {
       <div className="video-wrapper">
         <div className="video-overlay">
           <div className="content">
-            <h1>A DIGITAL MARKETING AGENCY</h1>
-            <h2>With Proven Results</h2>
+            <h1>The Sol-Bank</h1>
+            <h2>Energy For Everyone</h2>
             <p>
-              From boosting online traffic and brand awareness, to generating
-              qualified leads and increasing sales, our online marketing company
-              will help your business grow with successful marketing,
-              advertising, design, and website services.
+              The Sol-Bank is aimed towards the African/Asian markets where
+              access to energy is limited or non-existent and supplied as a
+              bundle consisiting of a Sol-bank, LED lamps and a solar panel.
             </p>
             <div className="header-btn">
               <span>Grow Your Business With Us</span>

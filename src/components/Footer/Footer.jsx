@@ -59,7 +59,7 @@ const Footer = () => {
               <p>SOl Tokens</p>
               <p>Stats</p>
               <Link to="/blogs">
-                <p>News</p>
+                <p>Blog</p>
               </Link>
             </div>
           </div>

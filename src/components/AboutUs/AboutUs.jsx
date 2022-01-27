@@ -4,10 +4,10 @@ import "./aboutUs.css";
 
 const AboutUs = () => {
   return (
-    <div className="about">
+    <div className="about" id="about">
       <Container>
         <div className="mainHeader">
-          <h2>OUR BEST PEOPLE</h2>
+          <h2>MEET THE TEAM</h2>
           <span className="tag">
             WE HAVE THE BEST IN CLASS PEOPLE ALL AROUND
           </span>

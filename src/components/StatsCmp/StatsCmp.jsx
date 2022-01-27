@@ -3,7 +3,7 @@ import "./statsCmp.css";
 
 const StatsCmp = () => {
   return (
-    <div className="stats-cmp">
+    <div className="stats-cmp" id="stats">
       <div className="slanted-box">
         <h5>sol-banks in use</h5>
         <hr className="divider" />

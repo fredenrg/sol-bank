@@ -6,11 +6,11 @@ import "./blogs.css";
 
 const Blogs = () => {
   return (
-    <div className="blogs">
+    <div className="blogs" id="news">
       <Container>
         <div className="mainHeader">
           <h2>OUR BLOG UPDATES</h2>
-          <span className="tag">WE ENJOY FOLLOWING THESE TRENDS</span>
+          <span className="tag">KEEP US WITH THE LATESTS FROM US</span>
           <span className="dots">...</span>
         </div>
         <div className="blogs-row">

@@ -19,7 +19,7 @@ const NavBarCmp = () => {
             <Navbar.Brand className="navBrand-mobile" href="#home">
               <Image
                 className="brand-logo"
-                src="/images/sol-logo-new.png"
+                src="/images/sol-logo-new.jpeg"
                 alt="sol-bank-logo"
               />
               <span className="brand-name">SOL-BANK</span>
@@ -51,18 +51,18 @@ const NavBarCmp = () => {
                     <div className="dotted">Home</div>
                   </Nav.Link>
                 </Link>
+                <Nav.Link className="navbar-links" href="#stats">
+                  <div className="dotted">Stats</div>
+                </Nav.Link>
                 <Nav.Link className="navbar-links" href="#sol-bank">
                   <div className="dotted">Sol-bank</div>
                 </Nav.Link>
                 <Nav.Link className="navbar-links" href="#sol-tokens">
                   <div className="dotted">SOLS Token</div>
                 </Nav.Link>
-                <Nav.Link className="navbar-links" href="#stats">
-                  <div className="dotted">Stats</div>
-                </Nav.Link>
                 <Link to="/blogs">
                   <Nav.Link className="navbar-links" href="#news">
-                    <div className="dotted">News</div>
+                    <div className="dotted">Blog</div>
                   </Nav.Link>
                 </Link>
                 <Nav.Link className="navbar-links" href="#about">

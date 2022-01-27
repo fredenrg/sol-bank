@@ -4,11 +4,11 @@ import "./aboutBoxes.css";
 
 const AboutBoxes = () => {
   return (
-    <div className="about-boxes">
+    <div className="about-boxes" id="sol-tokens">
       <Container>
         <div className="boxes-row">
           <div className="box">
-            <h5>WELL STRUCTURED</h5>
+            <h5>SOLS TOKENS</h5>
             <hr className="divider" />
             <p>
               Pri id idque assum reprimique, et modo adhuc iudico his, pri solum
@@ -20,7 +20,7 @@ const AboutBoxes = () => {
             </div>
           </div>
           <div className="box">
-            <h5>WELL STRUCTURED</h5>
+            <h5>SOLS TOKENS</h5>
             <hr className="divider" />
             <p>
               Pri id idque assum reprimique, et modo adhuc iudico his, pri solum
@@ -32,7 +32,7 @@ const AboutBoxes = () => {
             </div>
           </div>
           <div className="box">
-            <h5>WELL STRUCTURED</h5>
+            <h5>SOLS TOKENS</h5>
             <hr className="divider" />
             <p>
               Pri id idque assum reprimique, et modo adhuc iudico his, pri solum

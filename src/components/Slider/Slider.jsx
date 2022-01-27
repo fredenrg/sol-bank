@@ -7,7 +7,7 @@ import "./slider.css";
 
 const SliderCmp = () => {
   return (
-    <div className="slider">
+    <div className="slider" id="sol-bank">
       <div className="slider-row">
         <div
           className="content-slide"
@@ -15,29 +15,26 @@ const SliderCmp = () => {
         >
           <Carousel showArrows={false}>
             <div className="info">
-              <h2>libero non! Culpa</h2>
+              <h2>What Is Our Goal?</h2>
               <p>
-                adipisicing elit. Vel, libero non! Culpa quis atque doloribus,
-                aliquam at distinctio reprehenderit laborum harum. Ipsum, quo
-                nihil dicta ratione illum eveniet omnis veritatis. Vel, libero
-                non! Culpa quis atque doloribus, aliquam at distinctio
-                reprehenderit laborum harum. Ipsum, quo nihil dicta ratione
-                illum eveniet omnis veritatis?
+                Sol-bank will provide those living in rural communities with
+                unreliable access to energy a simple means of light and mobile
+                phone charging facilities powered by solar energy. In addition,
+                we plan to bring awareness to the Stellar blockchain and
+                cross-border payment systems to the unbanked.
               </p>
             </div>
             <div className="info">
-              <h2>Lorem ipsum dolor</h2>
+              <h2>What Are The Benefits?</h2>
               <p>
-                adipisicing elit. Vel, libero non! Culpa quis atque doloribus,
-                aliquam at distinctio reprehenderit laborum harum. Ipsum, quo
-                nihil dicta ratione illum eveniet omnis veritatis. Vel, libero
-                non! Culpa quis atque doloribus, aliquam at distinctio
-                reprehenderit laborum harum. Ipsum, quo nihil dicta ratione
-                illum eveniet omnis veritatis?
+                Consumers of Sol-bank will receive daily SOLS tokens which can
+                be exchanged for other assets on the Stellar Decentralised
+                Exchange (SDEX). The incentive of SOLS token rewards is that it
+                can dramatically lower Sol-bank cost of ownership.
               </p>
             </div>
             <div className="info" y>
-              <h2>sit amet consectetur</h2>
+              <h2>Some Other Information</h2>
               <p>
                 adipisicing elit. Vel, libero non! Culpa quis atque doloribus,
                 aliquam at distinctio reprehenderit laborum harum. Ipsum, quo
@@ -71,7 +68,7 @@ const SliderCmp = () => {
             <div>
               <Image
                 fluid
-                src="/images/slider-1.png"
+                src="/images/slider-1.jpeg"
                 alt="sol-bank-phone"
                 className="sol-bank-slide"
               />
@@ -80,7 +77,7 @@ const SliderCmp = () => {
             <div>
               <Image
                 fluid
-                src="/images/slider-2.png"
+                src="/images/slider-2.jpeg"
                 alt="sol-bank-lady"
                 className="sol-bank-slide"
               />
@@ -89,7 +86,7 @@ const SliderCmp = () => {
             <div>
               <Image
                 fluid
-                src="/images/slider-3.png"
+                src="/images/slider-3.jpeg"
                 alt="sol-bank-phone"
                 className="sol-bank-slide"
               />
