@@ -103,6 +103,7 @@
   }
   .navBar .brand-logo {
     width: 50px;
+    margin-bottom: 10px;
   }
   .navBar .navLinksWrapper-mobile {
     border: 1px solid #fff;
