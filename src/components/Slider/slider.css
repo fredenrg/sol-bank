@@ -83,7 +83,8 @@
     text-align: center;
   }
   .picture-slide .sol-bank-slide {
-    height: fit-content;
+    /* height: fit-content; */
+    height: 100%;
   }
   .indicator-wrapper .img {
     width: 50.97px;
