@@ -7,17 +7,17 @@ const StatsCmp = ({ factBalance }) => {
       <div className="slanted-box">
         <h5>sol-banks in use</h5>
         <hr className="divider" />
-        <h3>{factBalance}</h3>
+        <h3>{factBalance.toFixed(2)}</h3>
       </div>
       <div className="slanted-box">
         <h5>wh generated per day</h5>
         <hr className="divider" />
-        <h3>{factBalance * 135}</h3>
+        <h3>{(factBalance * 135).toFixed(2)}</h3>
       </div>
       <div className="slanted-box">
         <h5>rewards paid per day</h5>
         <hr className="divider" />
-        <h3>{factBalance * 135 * 10}</h3>
+        <h3>{(factBalance * 135 * 10).toFixed(2)}</h3>
       </div>
     </div>
   );

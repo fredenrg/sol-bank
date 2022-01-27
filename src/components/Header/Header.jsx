@@ -24,7 +24,12 @@ const Header = () => {
           </div>
         </div>
         <video autoPlay loop muted className="bg-video">
-          <source src={headerVideo} type="video/mp4" />
+          <source
+            src={
+              "https://mbluxury1.s3.amazonaws.com/2020/09/18141509/home-video-2020.mp4"
+            }
+            type="video/mp4"
+          />
         </video>
       </div>
     </div>
