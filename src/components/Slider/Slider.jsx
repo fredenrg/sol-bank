@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 import {
@@ -63,7 +63,8 @@ const SliderCmp = () => {
             renderIndicator={(callback, b, ind, d, e) => {
               return (
                 <div className="indicator-wrapper" onClick={callback}>
-                  <img
+                  <Image
+                    fluid
                     style={{ cursor: "pointer", zIndex: "10" }}
                     src={`/images/slider-${ind + 1}.png`}
                     alt="sol-bank-img"
@@ -75,7 +76,8 @@ const SliderCmp = () => {
             renderThumbs={() => undefined}
           >
             <div>
-              <img
+              <Image
+                fluid
                 src="/images/slider-1.png"
                 alt="sol-bank-phone"
                 className="sol-bank-slide"
@@ -83,7 +85,8 @@ const SliderCmp = () => {
               {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
-              <img
+              <Image
+                fluid
                 src="/images/slider-2.png"
                 alt="sol-bank-lady"
                 className="sol-bank-slide"
@@ -91,7 +94,8 @@ const SliderCmp = () => {
               {/* <p className="legend">Legend 2</p> */}
             </div>
             <div>
-              <img
+              <Image
+                fluid
                 src="/images/slider-3.png"
                 alt="sol-bank-phone"
                 className="sol-bank-slide"
