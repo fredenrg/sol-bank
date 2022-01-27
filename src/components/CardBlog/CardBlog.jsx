@@ -16,7 +16,7 @@ const CardBlog = () => {
       </div>
       <div className="top">
         <div className="blog-img-wrapper" style={{ overflow: "hidden" }}>
-          <Image className="blog-img" fluid src="/images/slider-1.png" />
+          <Image className="blog-img" fluid src="/images/slider-1.jpeg" />
         </div>
         <Link to="/blog">
           <div className="title-wrapper">

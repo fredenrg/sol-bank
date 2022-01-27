@@ -7,7 +7,7 @@ import NavBarCmp from "../NavBar/NavBarCmp";
 const Header = () => {
   return (
     <div className="main-header">
-      <NavBarCmp />
+      <NavBarCmp redirect={false} />
       <div className="video-wrapper">
         <div className="video-overlay">
           <div className="content">
@@ -19,7 +19,7 @@ const Header = () => {
               bundle consisiting of a Sol-bank, LED lamps and a solar panel.
             </p>
             <div className="header-btn">
-              <span>Grow Your Business With Us</span>
+              <span>Buy Sols Tokens Now</span>
             </div>
           </div>
         </div>

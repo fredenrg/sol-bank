@@ -9,7 +9,7 @@ const BlogsPage = () => {
   }, []);
   return (
     <div>
-      <NavBarCmp />
+      <NavBarCmp redirect={true} />
       <Navigator />
       <div>Display Blog posts</div>
     </div>

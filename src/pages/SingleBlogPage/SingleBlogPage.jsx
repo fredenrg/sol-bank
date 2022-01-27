@@ -8,7 +8,7 @@ const SingleBlogPage = () => {
   }, []);
   return (
     <div>
-      <NavBarCmp />
+      <NavBarCmp redirect={true} />
       <Navigator />
       <div>Display Single Blog</div>
     </div>
