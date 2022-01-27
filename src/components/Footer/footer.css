@@ -72,6 +72,7 @@
 }
 .footer-wrapper .links .quick-links p {
   cursor: pointer;
+  color: #fff;
 }
 .footer-wrapper .links .quick-links p:hover {
   color: wheat;

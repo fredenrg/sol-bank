@@ -1,12 +1,15 @@
 import React from "react";
 import { Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./cardBlog.css";
 
 const CardBlog = () => {
   return (
     <div className="card-blog">
       <div className="blog-btn">
-        <div>Read More</div>
+        <Link to="/blog">
+          <div className="text">Read More</div>
+        </Link>
         <div>
           <i className="fas fa-angle-right"></i>
         </div>
@@ -15,9 +18,11 @@ const CardBlog = () => {
         <div className="blog-img-wrapper" style={{ overflow: "hidden" }}>
           <Image className="blog-img" fluid src="/images/slider-1.png" />
         </div>
-        <div className="title-wrapper">
-          <h5>quam sunt vitae odio consequuntur vel</h5>
-        </div>
+        <Link to="/blog">
+          <div className="title-wrapper">
+            <h5>quam sunt vitae odio consequuntur vel</h5>
+          </div>
+        </Link>
       </div>
       <div className="bottom">
         <div className="blog-info">

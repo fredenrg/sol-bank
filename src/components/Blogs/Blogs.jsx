@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import CardBlog from "../CardBlog/CardBlog";
 import "./blogs.css";
 
@@ -22,7 +23,9 @@ const Blogs = () => {
                 <CardBlog />
               </Col>
             </Row>
-            <div className="view-all-btn">View all</div>
+            <Link to="/blogs">
+              <div className="view-all-btn">View all</div>
+            </Link>
           </Container>
         </div>
       </Container>

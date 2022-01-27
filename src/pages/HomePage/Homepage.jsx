@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import AboutBoxes from "../../components/AboutBoxes/AboutBoxes";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import Blogs from "../../components/Blogs/Blogs";
@@ -8,6 +8,9 @@ import StatsCmp from "../../components/StatsCmp/StatsCmp";
 import "./homePage.css";
 
 const Homepage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="homepage">
       <Header />

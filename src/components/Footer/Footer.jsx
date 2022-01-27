@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./footer.css";
 
 const Footer = () => {
@@ -57,7 +58,9 @@ const Footer = () => {
               <p>Sol-Bank</p>
               <p>SOl Tokens</p>
               <p>Stats</p>
-              <p>News</p>
+              <Link to="/blogs">
+                <p>News</p>
+              </Link>
             </div>
           </div>
         </div>

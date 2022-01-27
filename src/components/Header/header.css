@@ -7,7 +7,7 @@
   /* position: absolute; */
 }
 .main-header .video-overlay {
-  background-color: #21202246;
+  background-color: #00000046;
   width: 100%;
   height: 100vh;
   /* display: flex; */
@@ -80,9 +80,22 @@
 }
 
 @media only screen and (max-width: 990px) {
+  .main-header {
+    background: linear-gradient(
+        0deg,
+        rgba(109, 104, 104, 0.264),
+        rgba(110, 104, 104, 0.264)
+      ),
+      url("../../../src/images/mobile-bg.png");
+    background-size: cover;
+    background-position: top;
+  }
+  .main-header .bg-video {
+    display: none;
+  }
   .video-overlay .content {
     /* height: 400px; */
-    background: #212022;
+    background: #212022a2;
     padding: 10px 10px 25px;
     left: 0;
     bottom: 10%;

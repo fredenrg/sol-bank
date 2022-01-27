@@ -22,6 +22,7 @@
 .card-blog .title-wrapper h5 {
   padding: 15px 20px;
   text-transform: capitalize;
+  color: #000;
 }
 .card-blog .bottom {
   flex: 2;
@@ -74,6 +75,10 @@
   flex-direction: row;
   align-items: center;
   cursor: pointer;
+  color: #000;
+}
+.card-blog .blog-btn .text {
+  color: #000;
 }
 .blog-btn i {
   opacity: 0;

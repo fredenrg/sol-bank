@@ -1,5 +1,6 @@
 import React from "react";
 import { Image, Nav, Navbar } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./navBarCmp.css";
 
 const NavBarCmp = () => {
@@ -14,14 +15,16 @@ const NavBarCmp = () => {
         className="navBar-main"
       >
         <div className="container-fluid" id="nav-wrapper">
-          <Navbar.Brand className="navBrand-mobile" href="#home">
-            <Image
-              className="brand-logo"
-              src="/images/sol-logo-new.png"
-              alt="sol-bank-logo"
-            />
-            <span className="brand-name">SOL-BANK</span>
-          </Navbar.Brand>
+          <Link to="/">
+            <Navbar.Brand className="navBrand-mobile" href="#home">
+              <Image
+                className="brand-logo"
+                src="/images/sol-logo-new.png"
+                alt="sol-bank-logo"
+              />
+              <span className="brand-name">SOL-BANK</span>
+            </Navbar.Brand>
+          </Link>
           <div className="navLinksWrapper-mobile">
             <div className="toggler">
               <Navbar.Toggle
@@ -43,12 +46,11 @@ const NavBarCmp = () => {
             </div>
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ms-auto">
-                <Nav.Link className="navbar-links" href="#home">
-                  {/* <div> */}
-
-                  <div className="dotted">Home</div>
-                  {/* </div> */}
-                </Nav.Link>
+                <Link to="/">
+                  <Nav.Link className="navbar-links" href="#home">
+                    <div className="dotted">Home</div>
+                  </Nav.Link>
+                </Link>
                 <Nav.Link className="navbar-links" href="#sol-bank">
                   <div className="dotted">Sol-bank</div>
                 </Nav.Link>
@@ -58,9 +60,11 @@ const NavBarCmp = () => {
                 <Nav.Link className="navbar-links" href="#stats">
                   <div className="dotted">Stats</div>
                 </Nav.Link>
-                <Nav.Link className="navbar-links" href="#news">
-                  <div className="dotted">News</div>
-                </Nav.Link>
+                <Link to="/blogs">
+                  <Nav.Link className="navbar-links" href="#news">
+                    <div className="dotted">News</div>
+                  </Nav.Link>
+                </Link>
                 <Nav.Link className="navbar-links" href="#about">
                   <div className="dotted">About</div>
                 </Nav.Link>
