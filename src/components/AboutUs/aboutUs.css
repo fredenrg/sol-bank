@@ -33,6 +33,12 @@
     0 20%
   );
 }
+.about-row .box img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding-right: 20px;
+}
 .box .about-overlay {
   position: absolute;
   background-color: #222222;
