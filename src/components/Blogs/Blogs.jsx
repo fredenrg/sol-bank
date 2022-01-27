@@ -7,18 +7,23 @@ const Blogs = () => {
   return (
     <div className="blogs">
       <Container>
-        <h2>IN OUR UPDATES</h2>
-        <span>WE ENJOY FOLLOWING THESE TRENDS</span>
-        <span>...</span>
+        <div className="mainHeader">
+          <h2>OUR BLOG UPDATES</h2>
+          <span className="tag">WE ENJOY FOLLOWING THESE TRENDS</span>
+          <span className="dots">...</span>
+        </div>
         <div className="blogs-row">
-          <Row>
-            <Col sm={6}>
-              <CardBlog />
-            </Col>
-            <Col sm={6}>
-              <CardBlog />
-            </Col>
-          </Row>
+          <Container>
+            <Row>
+              <Col sm={6}>
+                <CardBlog />
+              </Col>
+              <Col sm={6}>
+                <CardBlog />
+              </Col>
+            </Row>
+            <div className="view-all-btn">View all</div>
+          </Container>
         </div>
       </Container>
     </div>

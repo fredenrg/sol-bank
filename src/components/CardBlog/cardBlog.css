@@ -1,15 +1,129 @@
 .card-blog {
   border: 1px solid #fcdb34;
   width: 100%;
-  height: 550px;
+  /* height: 20px; */
   display: flex;
   flex-direction: column;
+  position: relative;
+  overflow: hidden;
 }
 .card-blog .top {
   flex: 1;
-  /* background-color: #fcdb34; */
+  position: relative;
+}
+.card-blog .top .title-wrapper {
+  background-color: #fcdb34;
+  position: absolute;
+  right: 0;
+  top: 93%;
+  width: 75%;
+  cursor: pointer;
+}
+.card-blog .title-wrapper h5 {
+  padding: 15px 20px;
+  text-transform: capitalize;
 }
 .card-blog .bottom {
-  flex: 1;
+  flex: 2;
+  display: flex;
   /* background-color: aqua; */
+}
+.bottom .blog-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* flex-direction: row; */
+}
+.bottom .blog-content {
+  flex: 3;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.bottom .date-div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.date-div h5 {
+  color: #fcdb34;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 36px;
+  margin-right: 10px;
+  /* margin-top: 10px; */
+}
+.blog-info p {
+  margin: 0;
+  font-weight: bold;
+}
+.blog-info p:last-child {
+  margin-bottom: 15px;
+}
+.card-blog .blog-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-left: 1px solid #fcdb34;
+  border-top: 1px solid #fcdb34;
+  padding: 7px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.blog-btn i {
+  opacity: 0;
+  padding-left: 0px;
+  transition: all 0.5s ease;
+}
+.card-blog:hover > .blog-btn i {
+  opacity: 1;
+  padding-left: 10px;
+  transition: all 0.5s ease;
+}
+.card-blog:hover > .top img {
+  transform: scale(1.2);
+  vertical-align: middle;
+  transition: all 0.8s ease;
+  cursor: pointer;
+}
+.card-blog:hover > .top .title-wrapper {
+  background-color: #dddddd;
+}
+.card-blog:hover > .bottom .date-div h5 {
+  color: #dddddd;
+}
+
+@media only screen and (max-width: 990px) {
+  .card-blog {
+    margin-bottom: 30px;
+  }
+  .card-blog .top .title-wrapper {
+    width: 100%;
+  }
+  .card-blog .title-wrapper h5 {
+    font-size: 16px;
+    padding: 10px 10px;
+  }
+  .card-blog .bottom {
+    flex-direction: column;
+  }
+  .bottom .blog-info {
+    flex-direction: row;
+    margin-top: 40px;
+    padding: 20px;
+  }
+  .bottom .blog-content {
+    padding-top: 0;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 90px;
+    font-size: 14px;
+    line-height: 26px;
+  }
 }

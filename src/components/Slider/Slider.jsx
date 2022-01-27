@@ -1,14 +1,7 @@
 import React from "react";
-import { Col, Image, Row } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import {
-  CarouselProvider,
-  Slider,
-  Slide,
-  ButtonBack,
-  ButtonNext,
-} from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import "./slider.css";
 

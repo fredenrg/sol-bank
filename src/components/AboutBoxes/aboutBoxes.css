@@ -1,6 +1,6 @@
 .about-boxes {
   width: 100%;
-  padding: 120px 0 70px;
+  padding: 120px 0 0px;
 }
 .about-boxes .boxes-row {
   display: flex;
@@ -55,6 +55,7 @@
 }
 .boxes-row .box:hover {
   background-color: #fcdb34;
+  transition: background-color 0.5s ease;
 }
 .boxes-row .box:hover > .icon-box {
   top: -13%;

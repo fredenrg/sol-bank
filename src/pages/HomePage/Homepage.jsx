@@ -10,9 +10,9 @@ const Homepage = () => {
   return (
     <div className="homepage">
       <Header />
+      <StatsCmp />
       <Slider />
       <AboutBoxes />
-      <StatsCmp />
       <Blogs />
     </div>
   );
