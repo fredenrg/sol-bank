@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import "./slider.css";
@@ -72,7 +72,6 @@ const SliderCmp = () => {
                 alt="sol-bank-phone"
                 className="sol-bank-slide"
               />
-              {/* <p className="legend">Legend 1</p> */}
             </div>
             <div>
               <Image
@@ -81,7 +80,6 @@ const SliderCmp = () => {
                 alt="sol-bank-lady"
                 className="sol-bank-slide"
               />
-              {/* <p className="legend">Legend 2</p> */}
             </div>
             <div>
               <Image
@@ -90,7 +88,6 @@ const SliderCmp = () => {
                 alt="sol-bank-phone"
                 className="sol-bank-slide"
               />
-              {/* <p className="legend">Legend 3</p> */}
             </div>
           </Carousel>
         </div>

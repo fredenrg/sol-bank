@@ -9,8 +9,6 @@
 }
 .boxes-row .box {
   border: 1px solid #fcdb34;
-  /* height: 250px; */
-  /* flex: 1; */
   margin: 0px 20px;
   position: relative;
   text-align: center;
@@ -33,7 +31,6 @@
   font-weight: 600;
   font-size: 20px;
   line-height: 30px;
-  /* margin-bottom: 30px; */
   text-transform: uppercase;
 }
 .boxes-row .box .icon-box {

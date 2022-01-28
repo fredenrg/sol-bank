@@ -49,9 +49,6 @@
 .navbar-light .navbar-nav .show > .nav-link {
   color: #fcdb34;
 }
-/* .navbar-toggler-icon {
-  background-color: #121212;
-} */
 .navBar .container-fluid {
   padding: 5px 10%;
 }
@@ -82,11 +79,9 @@
     width: 100%;
   }
   .navBar .navBar-main {
-    /* background-color: rgb(226, 177, 43); */
     width: 100%;
   }
   .navBar .container-fluid {
-    /* background-color: rgb(153, 153, 179); */
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -99,7 +94,6 @@
     width: "100%";
     align-items: "center";
     justify-content: "center";
-    /* background-color: aqua; */
   }
   .navBar .brand-logo {
     width: 50px;
@@ -115,12 +109,7 @@
   .navBar .nav-wrapper {
     padding: 0 !important;
   }
-  /* .navBar .navbarCollapse {
-    border: 1px solid #fff;
-    width: fit-content;
-  } */
   .navbar-light .navbar-nav .nav-link {
-    /* text-align: center; */
     border-top: 1px solid #fff;
     margin: 2px 0px;
     padding-left: 8%;
@@ -162,7 +151,6 @@
   }
   .fas.fa-bars {
     font-size: 12px;
-    /* color: red; */
     font-weight: bold;
   }
 }

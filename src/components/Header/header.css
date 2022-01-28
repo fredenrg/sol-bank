@@ -1,22 +1,14 @@
 /******************************************************* Header Styles *****************************************/
 .main-header {
   height: 100vh;
-  /* background: url("../../videos/header-bg.mp4"); */
 }
-.main-header .video-wrapper {
-  /* position: absolute; */
-}
+
 .main-header .video-overlay {
   background-color: #00000046;
   width: 100%;
   height: 100vh;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 .video-overlay .content {
-  /* width: 50%; */
   position: absolute;
   background: #2120227c;
   z-index: 1;
@@ -56,7 +48,6 @@
   object-fit: cover;
   transform: translate(-50%, -50%);
   z-index: -10;
-  /* height: 100vh; */
 }
 .video-overlay .content .header-btn {
   background-color: #fcdb34;
@@ -94,13 +85,11 @@
     display: none;
   }
   .video-overlay .content {
-    /* height: 400px; */
     background: #212022a2;
     padding: 10px 10px 25px;
     left: 0;
     bottom: 10%;
     margin: 10px;
-    /* z-index: -1; */
   }
   .video-overlay .content h1 {
     font-size: 20px;

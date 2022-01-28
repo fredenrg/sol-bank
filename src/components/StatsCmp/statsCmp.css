@@ -7,7 +7,7 @@
     url("../../../src/images/counter-parallax.jpeg");
   background-size: cover;
   background-position: top;
-  /* height: 300px; */
+
   width: 100%;
   border-top: 4px solid #fcdb34;
   border-bottom: 4px solid #fcdb34;
@@ -19,9 +19,8 @@
 .stats-cmp .slanted-box {
   width: 30%;
   text-align: center;
-  /* clip-path: polygon(96% 0, 98% 1%, 79% 100%, 78% 100%); */
+
   border-right: 1px solid wheat;
-  /* background-color: #fcdb34; */
 }
 .stats-cmp .slanted-box:last-child {
   border-right: none;

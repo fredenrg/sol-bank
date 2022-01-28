@@ -29,7 +29,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Oswald:wght@300;700&family=Xanh+Mono:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@300;700&family=Xanh+Mono:ital@0;1&display=swap"
       rel="stylesheet"
     />
 
@@ -82,29 +82,16 @@
           document.body.scrollTop > 20 ||
           document.documentElement.scrollTop > 20
         ) {
-          // console.log(navWrapper, navMain);
           navWrapper.classList.remove("top");
           navWrapper.classList.add("scroll");
           navMain.classList.remove("top");
           navMain.classList.add("scroll");
-          // document.getElementById("nav-wrapper").style.padding = "0px 10px";
-          // document.getElementById("nav-wrapper").style.transition =
-          //   "padding 0.5s ease";
-          // document.querySelector(".navBar-main").style.backgroundColor =
-          //   "#252525";
-          // document.querySelector(".navBar-main").style.height = "70px";
         } else {
           console.log("no");
           navWrapper.classList.remove("scroll");
           navWrapper.classList.add("top");
           navMain.classList.remove("scroll");
           navMain.classList.add("top");
-          // document.getElementById("nav-wrapper").style.padding = "5px 200px";
-          // document.getElementById("nav-wrapper").style.transition =
-          //   "padding 0.5s ease";
-          // document.querySelector(".navBar-main").style.backgroundColor =
-          //   "rgba(0, 0, 0, 0.279)";
-          // document.querySelector(".navBar-main").style.height = "90px";
         }
       }
     </script>

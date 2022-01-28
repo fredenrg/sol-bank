@@ -1,48 +1,49 @@
-.card-blog {
+.card-blog-list {
   border: 1px solid #fcdb34;
   width: 100%;
   display: flex;
   flex-direction: column;
   position: relative;
   overflow: hidden;
+  margin: 20px 0;
 }
-.card-blog .top {
+.card-blog-list .top {
   flex: 1;
   position: relative;
 }
-.card-blog .top .title-wrapper {
+.card-blog-list .top .title-wrapper {
   background-color: #fcdb34;
   position: absolute;
   right: 0;
   top: 93%;
-  width: 75%;
+  width: 100%;
   cursor: pointer;
 }
-.card-blog .title-wrapper h5 {
+.card-blog-list .title-wrapper h5 {
   padding: 15px 20px;
   text-transform: capitalize;
   color: #000;
 }
-.card-blog .bottom {
+.card-blog-list .bottom {
   flex: 2;
   display: flex;
 }
-.bottom .blog-info {
+.card-blog-list .bottom .blog-info {
   flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
-.bottom .blog-content {
+.card-blog-list .bottom .blog-content {
   flex: 3;
   padding-top: 70px;
   padding-bottom: 40px;
 }
-.bottom .date-div {
+.card-blog-list .bottom .date-div {
   display: flex;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 75px;
 }
 .date-div h5 {
   color: #fcdb34;
@@ -56,10 +57,11 @@
   margin: 0;
   font-weight: bold;
 }
-.blog-info p:last-child {
+.card-blog-list .blog-info p:last-child {
   margin-bottom: 15px;
+  font-size: 13px;
 }
-.card-blog .blog-btn {
+.card-blog-list .blog-btn {
   position: absolute;
   bottom: 0;
   right: 0;
@@ -72,7 +74,7 @@
   cursor: pointer;
   color: #000;
 }
-.card-blog .blog-btn .text {
+.card-blog-list .blog-btn .text {
   color: #000;
 }
 .blog-btn i {
@@ -80,44 +82,48 @@
   padding-left: 0px;
   transition: all 0.5s ease;
 }
-.card-blog:hover > .blog-btn i {
+.card-blog-list:hover > .blog-btn i {
   opacity: 1;
   padding-left: 10px;
   transition: all 0.5s ease;
 }
-.card-blog:hover > .top img {
+.card-blog-list:hover > .top img {
   transform: scale(1.2);
   vertical-align: middle;
   transition: all 0.8s ease;
   cursor: pointer;
 }
-.card-blog:hover > .top .title-wrapper {
+.card-blog-list:hover > .top .title-wrapper {
   background-color: #dddddd;
 }
-.card-blog:hover > .bottom .date-div h5 {
+.card-blog-list:hover > .bottom .date-div h5 {
   color: #dddddd;
 }
 
 @media only screen and (max-width: 990px) {
-  .card-blog {
+  .card-blog-list {
     margin-bottom: 30px;
   }
-  .card-blog .top .title-wrapper {
+  .card-blog-list .top .title-wrapper {
     width: 100%;
   }
-  .card-blog .title-wrapper h5 {
+  .card-blog-list .title-wrapper h5 {
     font-size: 16px;
     padding: 10px 10px;
   }
-  .card-blog .bottom {
+  .card-blog-list .bottom {
     flex-direction: column;
   }
-  .bottom .blog-info {
+  .card-blog-list .bottom .date-div {
+    margin-top: 0px;
+  }
+  .card-blog-list .bottom .blog-info {
     flex-direction: row;
     margin-top: 40px;
     padding: 20px;
+    align-items: center;
   }
-  .bottom .blog-content {
+  .card-blog-list .bottom .blog-content {
     padding-top: 0;
     text-align: justify;
     padding-left: 10px;
